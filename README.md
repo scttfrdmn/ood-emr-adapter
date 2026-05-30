@@ -1,5 +1,11 @@
 # ood-emr-adapter
 
+[![CI](https://github.com/scttfrdmn/ood-emr-adapter/actions/workflows/ci.yml/badge.svg)](https://github.com/scttfrdmn/ood-emr-adapter/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/scttfrdmn/ood-emr-adapter)](https://goreportcard.com/report/github.com/scttfrdmn/ood-emr-adapter)
+[![codecov](https://codecov.io/gh/scttfrdmn/ood-emr-adapter/branch/main/graph/badge.svg)](https://codecov.io/gh/scttfrdmn/ood-emr-adapter)
+[![Go Reference](https://pkg.go.dev/badge/github.com/scttfrdmn/ood-emr-adapter.svg)](https://pkg.go.dev/github.com/scttfrdmn/ood-emr-adapter)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 OOD compute adapter for [Amazon EMR Serverless](https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/getting-started.html). Translates Open OnDemand job lifecycle calls (submit / status / delete / info) to the EMR Serverless API.
 
 ## Commands
