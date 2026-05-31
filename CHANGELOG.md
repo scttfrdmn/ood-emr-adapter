@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-05-30
+
 ### Fixed
 - Bumped `github.com/scttfrdmn/substrate` 0.45.2 → 0.65.0 and regenerated go.sum. The recorded 0.45.2 checksum no longer matched the module the proxy serves (upstream re-tag), which broke `go test -tags=integration` with a go.sum SECURITY ERROR. Integration tests now build and pass.
 
