@@ -24,7 +24,7 @@ var statusCmd = &cobra.Command{
 		}
 
 		ctx := context.Background()
-		client, err := emr.New(ctx, region)
+		client, err := emr.New(ctx, region, awsOptions(ctx)...)
 		if err != nil {
 			return err
 		}
